@@ -1,0 +1,36 @@
+Algoritmo "Menu lanchonete Lucas /versao1"
+Var
+opcao, quantidade: inteiro
+   total: real
+Inicio
+total <- 0
+escreval
+repita
+escreval("Lanchonete do Lucas")
+escreval("1) – X-Salada, valor R$15,0")
+escreval("2) – X-Bacon, valor R$11,0")
+escreval("3) – X-Egg, valor R$9,0")
+escreval("4) - Refrigerante, valor R$5,0")
+escreval("5) – Finalizar pedido")
+escreval ("escolha uma opção: ")
+
+leia(opcao)
+escolha (opcao)
+caso 1
+ total <- total + 15,0
+caso 2
+total <- total + 11,0
+caso 3
+total <- total + 9,0
+caso 4
+total <- total + 5,0
+caso 5
+ escreva("Total do pedido: R$ ", total)
+ outrocaso
+     escreval("Escolha incorreta, digite um item existente")
+     escreval
+fimescolha
+
+ate opcao = 5
+
+fimalgoritmo
