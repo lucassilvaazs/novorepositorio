@@ -1,4 +1,4 @@
-Algoritmo "Menu lanchonete Lucas /versao1"
+Algoritmo "Menu lanchonete Lucas /versao2"
 Var
 opcao, quantidade: inteiro
    total: real
